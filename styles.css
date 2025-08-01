@@ -52,8 +52,8 @@ button span {
 button::before {
     content:'';
     position:absolute;
-    top:0;
-    left:0;
+    top:var(--y);
+    left:var(--x);
     transform:translate(-50%,-50%);
     width:200px;
     height:200px;
